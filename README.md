@@ -8,9 +8,9 @@ FunSliders is a simple GUI to manually explore the inputs of a function:
         return x*y*z
     funsliders(volume, [('x',0,5), ('y',1,5,3), ('z',2,5,4)])
 
-.. ![Alt text](https://github.com/Zulko/funsliders/blob/master/funsliders_demo.jpeg "Screenshot")
+![Alt text](https://github.com/Zulko/funsliders/blob/master/funsliders_demo.jpeg "Screenshot")
 
-A slightly more spectacular example of funslider in action is shown in [this video](https://www.youtube.com/watch?v=z82OHpw1-Qo).
+A slightly more spectacular example of `funslider` in action is shown in [this video](https://www.youtube.com/watch?v=z82OHpw1-Qo).
 
 Installation
 ------------
