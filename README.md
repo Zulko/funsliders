@@ -8,9 +8,9 @@ FunSliders is a simple GUI to manually explore the inputs of a function:
         return x*y*z
     funsliders(volume, [('x',0,5), ('y',1,5,3), ('z',2,5,4)])
 
-.. ![Alt text](http://i.imgur.com/2ngZopS.jpg "Screenshot")
+![Alt text](https://github.com/Zulko/funsliders/blob/master/funsliders_demo.jpeg "Screenshot")
 
-A slightly more spectacular example of funslider in action is shown in this video.
+A slightly more spectacular example of funslider in action is shown in [this video](https://www.youtube.com/watch?v=z82OHpw1-Qo).
 
 Installation
 ------------
@@ -23,13 +23,15 @@ Second solution, unzip everything in a folder and go with
 
     sudo python setup.py develop
 
-Last solution, since it's a very small module (<100 lines) just copy the file `funsliders.py` or its content anywhere you want to use it.
+Last solution, since it's a very small module (less than 100 lines) just copy the file `funsliders.py` or its content anywhere you want to use it.
 
 
 What else there is to know:
 ---------------------------
 
-Alternatively one can define the slider's properties using a dictionnary.
+The function to explore can be any function with numerical inputs.
+
+One can also define the slider's properties using a dictionnary.
 See Matplotlib's sliders for all supported arguments:
 
     funsliders(volume,[ {'label': 'x', 'valmin':1, 'valmax':5},

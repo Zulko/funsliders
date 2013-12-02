@@ -8,9 +8,9 @@ def funsliders(f, sliders_properties, autoexec = False, history=True):
     ('label', min_value, max_value [, initial value] )
     
     >>> def volume(x,y,z):
-	>>>	    return x*y*z
+    >>>     return x*y*z
     >>> funslider(volume,[ ('x',0,5), ('y',1,5,3),('z',2,5,4)])
-	
+    
     Alternatively one can define the slider's using a dictionnary.
     See Matplotlib's sliders for all supported arguments:
     
@@ -18,6 +18,10 @@ def funsliders(f, sliders_properties, autoexec = False, history=True):
                     {'label': 'y', 'valmin':1, 'valmax':5, 'valinit':2},
                           {'label': 'z', 'valmin':1 , 'valmax':5} ])
         
+    Arguments
+    ----------
+    
+    The function `f` is any function with numerical inputs.
         
     If `autoexec` is True, the function `f` is executed every time
     the slider is changed, using the argument values indicated by the
@@ -102,7 +106,7 @@ def funsliders(f, sliders_properties, autoexec = False, history=True):
 if __name__ == "__main__":
     
     def volume(x,y,z):
-			return x*y*z
+            return x*y*z
     funslider(volume,[('x',0,5), ('y',1,5,3),('z',2,5,4)])
     
     
