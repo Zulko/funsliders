@@ -7,9 +7,9 @@ def funsliders(f, sliders_properties, autoexec = False, history=True):
     a function. `slider_properties` is a list of elements like this:
     ('label', min_value, max_value [, initial value] )
     
-    >>> def volume(x,y,z):
-    >>>     return x*y*z
-    >>> funslider(volume,[ ('x',0,5), ('y',1,5,3),('z',2,5,4)])
+    >>> def volume(x, y, z):
+            return x*y*z
+    >>> funslider(volume,[('x',0,5), ('y',1,5,3),('z',2,5,4)])
     
     Alternatively one can define the slider's using a dictionnary.
     See Matplotlib's sliders for all supported arguments:
@@ -105,7 +105,7 @@ def funsliders(f, sliders_properties, autoexec = False, history=True):
 
 if __name__ == "__main__":
     
-    def volume(x,y,z):
+    def volume(x, y, z):
             return x*y*z
     funslider(volume,[('x',0,5), ('y',1,5,3),('z',2,5,4)])
     
