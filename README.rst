@@ -19,7 +19,7 @@ First solution, with pip: ::
     
     sudo pip install funsliders
 
-Second solution, unzip everything in a folder and go with
+Second solution, unzip everything in a folder and go with ::
     
     sudo python setup.py develop
 

@@ -6,9 +6,9 @@ ez_setup.use_setuptools()
 from setuptools import setup, find_packages
 
 setup(name='funsliders',
-      version='0.0.0.2',
+      version='0.0.0.3',
       author='Zulko 2013',
       description= "Funsliders are user-friendly Matplotlib sliders",
-      long_description=open('README.md').read(),
+      long_description=open('README.rst').read(),
       license=open('LICENSE.txt').read(),
       keywords="pylab matplotlib slider interactive function")
